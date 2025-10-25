@@ -1,9 +1,5 @@
 :root {
-  --bg:#0f1724; 
-  --card:#0b1220; 
-  --muted:#9aa4b2; 
-  --accent:#4f46e5;
-  --glass: rgba(255,255,255,0.04);
+
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   color-scheme: dark;
 }
@@ -143,7 +139,10 @@ nav a:hover {
   font-size:14px;
 }
 
-section { margin-bottom:20px }
+section {
+  margin-bottom: 20px;
+}
+
 
 .grid-2 {
   display:grid;
@@ -166,7 +165,7 @@ section { margin-bottom:20px }
 
 .progress {
   height:10px;
-  background:rgba(255,255,255,0.04);
+  background:hwb(0 0% 100%);
   border-radius:999px;
   flex:1;
   overflow:hidden;
@@ -186,7 +185,7 @@ section { margin-bottom:20px }
 }
 
 .timeline-item {
-  background:rgba(255,255,255,0.02);
+  background-color: rgba(255, 255, 255, 0.2); /* white with 80% opacity */
   padding:12px;
   border-radius:10px;
 }

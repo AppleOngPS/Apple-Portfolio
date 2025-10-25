@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Me — Portfolio</title>
+  <meta name="description" content="About me portfolio. Short bio, skills, projects and contact." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">AP</div>
+        <div>
+          <div style="font-weight:700">Apple Ong</div>
+          <div style="font-size:13px;color:var(--muted)">Information Techonlogy student</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="card intro">
+            <h1 style="margin-top:0">Hello, I'm Apple Ong</h1>
+            <br>
+                    
+            <a class="btn secondary" href="#projects">View Work</a>
+            <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+            <a class="btn secondary" href="mailto:ongapple1@gmail.com?subject=Portfolio Inquiry">Contact me</a>
+            <a class="btn secondary" href="https://github.com/AppleOngPS" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+
+      </section>
+
+      <section id="about" class="card">
+        <h3 style="margin-top:0">About Me</h3>
+        <div class="grid-2">
+          <div>
+            <p class="muted"> Hands-on experience:</p>
+            <ul style="margin:12px 0 0;padding-left:18px;color:var(--muted)">
+              <li>Coding language: Python, R, SQL, Go</li>
+              <li>Web development: HTML, CSS, JavaScript, React</li>
+              <li>Visualisation tools: PowerBi, Qliksense</li>
+              <li>Mircosoft office: Powerpoint, Words, Excel, Access</li>
+              <li>Design tools: Figma, Canva, Photoshop</li>
+            </ul>
+          </div>
+          <div>
+            <h4 style="margin:0 0 8px">Working Experience</h4>
+            <div class="timeline">
+              <div class="timeline-item">
+                <strong>Senior Frontend Developer</strong> — Company A<br>
+                <span class="muted">2022 — Present</span>
+              </div>
+              <div class="timeline-item">
+                <strong>Frontend Developer</strong> — Company B<br>
+                <span class="muted">2019 — 2022</span>
+              </div>
+              <div class="timeline-item">
+                <strong>UI Engineer</strong> — Startup C<br>
+                <span class="muted">2017 — 2019</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="card">
+        <h3 style="margin-top:0">Skills</h3>
+        <div class="skills" aria-hidden="false">
+          <div class="skill"><div style="width:110px" class="muted">HTML & CSS</div><div class="progress" aria-label="HTML and CSS skill"><i style="width:92%"></i></div></div>
+          <div class="skill"><div style="width:110px" class="muted">JavaScript</div><div class="progress" aria-label="JavaScript skill"><i style="width:86%"></i></div></div>
+          <div class="skill"><div style="width:110px" class="muted">React</div><div class="progress" aria-label="React skill"><i style="width:84%"></i></div></div>
+          <div class="skill"><div style="width:110px" class="muted">TypeScript</div><div class="progress" aria-label="TypeScript skill"><i style="width:78%"></i></div></div>
+          <div class="skill"><div style="width:110px" class="muted">Design</div><div class="progress" aria-label="Design skill"><i style="width:72%"></i></div></div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h3 style="margin:8px 0">Projects</h3>
+        <div class="projects">
+          <article class="project card">
+            <h4>Project One</h4>
+            <p class="muted" style="margin-top:6px">A brief summary of the project, technologies used and the outcome. Link to live demo or repo.</p>
+          </article>
+          <article class="project card">
+            <h4>Project Two</h4>
+            <p class="muted" style="margin-top:6px">A brief summary of the project, technologies used and the outcome. Link to live demo or repo.</p>
+          </article>
+          <article class="project card">
+            <h4>Project Three</h4>
+            <p class="muted" style="margin-top:6px">A brief summary of the project, technologies used and the outcome. Link to live demo or repo.</p>
+          </article>
+        </div>
+      </section>
+
+  
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> Your Name — Built with HTML & CSS</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

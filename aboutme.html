@@ -3,113 +3,156 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>About Me — Portfolio</title>
-  <meta name="description" content="About me portfolio. Short bio, skills, projects and contact." />
+  <title>Apple Ong — Portfolio</title>
+  <meta name="description" content="Portfolio of Apple Ong, IT student showcasing skills, experience, and projects." />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
+
+    <!-- Header -->
     <header>
       <div class="brand">
         <div class="logo">AP</div>
         <div>
-          <div style="font-weight:700">Apple Ong</div>
-          <div style="font-size:13px;color:var(--muted)">Information Techonlogy student</div>
+          <h1 style="margin:0">Apple Ong</h1>
+          <p class="muted" style="margin:0">Information Technology Student</p>
         </div>
       </div>
       <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <main>
-      <section class="hero">
-        <div class="card intro">
-            <h1 style="margin-top:0">Hello, I'm Apple Ong</h1>
-            <br>
-                    
-            <a class="btn secondary" href="#projects">View Work</a>
-            <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
-            <a class="btn secondary" href="mailto:ongapple1@gmail.com?subject=Portfolio Inquiry">Contact me</a>
-            <a class="btn secondary" href="https://github.com/AppleOngPS" target="_blank" rel="noopener">GitHub</a>
-          </div>
-        </div>
+    <!-- About Me -->
+    <section id="about" class="section card">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m an Information Technology student with a strong interest in <strong>data analytics</strong>. 
+        I enjoy uncovering insights from data, building dashboards, and applying analytical thinking to solve real-world problems. 
+        I’m also passionate about combining data with technology to create solutions that are both functional and visually engaging.
+    </section>
+
+     <!-- Education -->
+ <section id="experience" class="section card">
+  <h2>Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <strong>Diploma in Information Technology</strong> — Ngee Ann Polytechnic<br>
+      <span class="muted">Apr 2023 — Present</span>
+      <p>Culminative GPA: 3.3</p>
+    </div>
+
+    <div class="timeline-item">
+      <strong>Higher Nitec in Data Engineering</strong> — ITE<br>
+      <span class="muted">Apr 2024 — Mar 2025</span>
+      <p>Culminative GPA :3.8</p>
+    </div>
+
+    <div class="timeline-item">
+      <strong>O level</strong> — Assumption English School<br>
+      <span class="muted">Jan 2020 — Dec 2020</span>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Skills -->
+    <section id="skills" class="section card">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Coding Languages:</strong> Python, R, SQL, GO</li>
+        <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React</li>
+        <li><strong>Visualization Tools:</strong> Power BI, Qlik Sense</li>
+        <li><strong>Office Tools:</strong> PowerPoint, Word, Excel, Access</li>
+        <li><strong>Design Tools:</strong> Figma, Canva, Photoshop</li>
+      </ul>
+    </section>
+
+    <!-- Work Experience -->
+ <section id="experience" class="section card">
+  <h2>Work Experience</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <strong>Data Analytics Intern</strong> — PUB<br>
+      <span class="muted">Mar 2025 — Present</span>
+      <p><strong>Scope:</strong></p>
+      <ul>
+        <li>Handled and analyzed large datasets using Python and SQL.</li>
+        <li>Automated data workflows, reducing manual processing time.</li>
+        <li>Created visualizations and dashboards to communicate insights.</li>
+        <li>Collaborated with cross-functional teams to deliver data-driven solutions.</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <strong>Sales Consultant</strong> — Skechers Singapore<br>
+      <span class="muted">Apr 2024 — Mar 2025</span>
+      <p><strong>Scope:</strong></p>
+      <ul>
+        <li>Provided exceptional customer service and support.</li>
+        <li>Maintained visual merchandising to enhance store appeal.</li>
+        <li>Assisted with stock taking and general housekeeping.</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <strong>Data Science Intern</strong> — Ent Vision<br>
+      <span class="muted">Sep 2022 — Feb 2023</span>
+      <p><strong>Scope:</strong></p>
+      <ul>
+        <li>Performed exploratory data analysis (EDA) using R.</li>
+        <li>Conducted data labelling and cleaning with Excel.</li>
+        <li>Tested API responses using Postman and R scripts.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
 
 
-      </section>
+    <!-- Projects -->
+    <section id="projects" class="section card">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Project One</h3>
+          <p class="muted">A brief summary of the project, technologies used, and the outcome. Includes link to live demo or repo.</p>
+        </article>
+        <article class="project">
+          <h3>Project Two</h3>
+          <p class="muted">A brief summary of the project, technologies used, and the outcome. Includes link to live demo or repo.</p>
+        </article>
+        <article class="project">
+          <h3>Project Three</h3>
+          <p class="muted">A brief summary of the project, technologies used, and the outcome. Includes link to live demo or repo.</p>
+        </article>
+      </div>
+    </section>
 
-      <section id="about" class="card">
-        <h3 style="margin-top:0">About Me</h3>
-        <div class="grid-2">
-          <div>
-            <p class="muted"> Hands-on experience:</p>
-            <ul style="margin:12px 0 0;padding-left:18px;color:var(--muted)">
-              <li>Coding language: Python, R, SQL, Go</li>
-              <li>Web development: HTML, CSS, JavaScript, React</li>
-              <li>Visualisation tools: PowerBi, Qliksense</li>
-              <li>Mircosoft office: Powerpoint, Words, Excel, Access</li>
-              <li>Design tools: Figma, Canva, Photoshop</li>
-            </ul>
-          </div>
-          <div>
-            <h4 style="margin:0 0 8px">Working Experience</h4>
-            <div class="timeline">
-              <div class="timeline-item">
-                <strong>Senior Frontend Developer</strong> — Company A<br>
-                <span class="muted">2022 — Present</span>
-              </div>
-              <div class="timeline-item">
-                <strong>Frontend Developer</strong> — Company B<br>
-                <span class="muted">2019 — 2022</span>
-              </div>
-              <div class="timeline-item">
-                <strong>UI Engineer</strong> — Startup C<br>
-                <span class="muted">2017 — 2019</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <!-- Contact -->
+    <section id="contact" class="section card">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to reach out through any of the methods below:</p>
+      <div class="contact-links">
+        <a class="btn secondary" href="mailto:ongapple1@gmail.com?subject=Portfolio Inquiry">📧 Email Me</a>
+        <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener">📄 Resume</a>
+        <a class="btn secondary" href="https://github.com/AppleOngPS" target="_blank" rel="noopener">💻 GitHub</a>
+      </div>
+    </section>
 
-      <section id="skills" class="card">
-        <h3 style="margin-top:0">Skills</h3>
-        <div class="skills" aria-hidden="false">
-          <div class="skill"><div style="width:110px" class="muted">HTML & CSS</div><div class="progress" aria-label="HTML and CSS skill"><i style="width:92%"></i></div></div>
-          <div class="skill"><div style="width:110px" class="muted">JavaScript</div><div class="progress" aria-label="JavaScript skill"><i style="width:86%"></i></div></div>
-          <div class="skill"><div style="width:110px" class="muted">React</div><div class="progress" aria-label="React skill"><i style="width:84%"></i></div></div>
-          <div class="skill"><div style="width:110px" class="muted">TypeScript</div><div class="progress" aria-label="TypeScript skill"><i style="width:78%"></i></div></div>
-          <div class="skill"><div style="width:110px" class="muted">Design</div><div class="progress" aria-label="Design skill"><i style="width:72%"></i></div></div>
-        </div>
-      </section>
-
-      <section id="projects">
-        <h3 style="margin:8px 0">Projects</h3>
-        <div class="projects">
-          <article class="project card">
-            <h4>Project One</h4>
-            <p class="muted" style="margin-top:6px">A brief summary of the project, technologies used and the outcome. Link to live demo or repo.</p>
-          </article>
-          <article class="project card">
-            <h4>Project Two</h4>
-            <p class="muted" style="margin-top:6px">A brief summary of the project, technologies used and the outcome. Link to live demo or repo.</p>
-          </article>
-          <article class="project card">
-            <h4>Project Three</h4>
-            <p class="muted" style="margin-top:6px">A brief summary of the project, technologies used and the outcome. Link to live demo or repo.</p>
-          </article>
-        </div>
-      </section>
-
-  
-    </main>
-
+    <!-- Footer -->
     <footer>
-      <div>© <span id="year"></span> Your Name — Built with HTML & CSS</div>
+      <p>© <span id="year"></span> Apple Ong — Built with HTML & CSS</p>
     </footer>
+
   </div>
 
-  <script src="script.js"></script>
 </body>
 </html>
